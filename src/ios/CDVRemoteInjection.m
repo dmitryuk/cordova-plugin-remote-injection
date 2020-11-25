@@ -20,6 +20,11 @@
     BOOL forcedReload;
     
     /*
+     Reference to the currently displayed alert view.  Can be NULL.
+     */
+    UIAlertView *alertView;
+    
+    /*
      * Delegate instance for the type of webView the containing app is using.
      */
     id <CDVRemoteInjectionWebViewDelegate> webViewDelegate;
